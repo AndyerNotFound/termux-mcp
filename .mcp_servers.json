@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/storage/emulated/0"]
+    },
+    "exa": {
+      "url": "https://mcp.exa.ai/mcp",
+      "headers": { "x-api-key": "${EXA_API_KEY}" }
+    }
+  }
+}
